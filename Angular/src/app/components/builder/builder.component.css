@@ -2,3 +2,13 @@
     margin: auto;
     width: 80%;
 }
+#saveDiv{
+    margin: auto;
+    width: 100%;
+}
+#save{
+    margin-left: 45%;
+    margin-right:45%;
+    background-color: green;
+    color: white;
+}
