@@ -12,3 +12,14 @@
     background-color: green;
     color: white;
 }
+#newForm{
+    margin:auto;
+    width: 50%;
+    word-wrap: break-word;
+}
+#download{
+    margin-left: 35%;
+    margin-right:35%;
+    background-color: darkgray;
+    color: white;
+}
