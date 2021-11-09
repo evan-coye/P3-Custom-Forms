@@ -9,7 +9,7 @@ export class FormService {
 
   constructor() { }
 
-  formUrl = "https://reqres.in/users"
+  formUrl = "put vaild endpoint here"
 
   async sendForm(form:any){
     
