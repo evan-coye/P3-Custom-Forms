@@ -7,12 +7,22 @@ import { Component, ElementRef, ViewChild, EventEmitter, OnInit } from '@angular
 
 export class BuilderComponent implements OnInit {
 
+  public isSaved:boolean = false;
+  public jsonString:String = "";
+
   public form: Object = {
   components: [],
   };
   ngOnInit() {
   }
   save() {
+  this.isSaved = true;
   console.log(this.form);
+  this.jsonString=JSON.stringify(this.form, null, 4)
+  console.log(this.jsonString)
+  // localStorage.setItem('myform', JSON.stringify(this.form));
+  // let myContainer = document.getElementById("newForm") as HTMLElement
+  // myContainer.innerHTML="Here is your form JSON: <br>" + JSON.stringify(this.form)
+  // console.log(JSON.stringify(this.form))
   }
 }
