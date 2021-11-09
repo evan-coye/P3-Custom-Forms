@@ -1,4 +1,5 @@
 import { Component, ElementRef, ViewChild, EventEmitter, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { FormService } from 'src/app/services/form.service';
 @Component({
   selector: 'app-builder',
@@ -12,7 +13,7 @@ export class BuilderComponent implements OnInit {
   public isSaved:boolean = false;
   public jsonString:String = "";
 
-  constructor(private fs:FormService){}
+  constructor(private fs:FormService, private router: Router){}
 
 
   public form: Object = {
@@ -28,11 +29,16 @@ export class BuilderComponent implements OnInit {
   console.log(this.jsonString)
   // localStorage.setItem('myform', JSON.stringify(this.form));
   // let myContainer = document.getElementById("newForm") as HTMLElement
-  // myContainer.innerHTML="Here is your form JSON: <br>" + JSON.stringify(this.form)
   // console.log(JSON.stringify(this.form))
 
+  // this.router.navigate(['/formPreview']);
   
-  this.fs.sendForm(this.form)
-
+  }
+  editForm(){
+    this.isSaved = false;
+    console.log(this.isSaved)
+  }
+  sendForm(){
+    this.fs.sendForm(this.form)
   }
 }
