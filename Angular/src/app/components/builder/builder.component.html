@@ -7,13 +7,14 @@
 </div>
 </div>
 
-<div *ngIf="isSaved" id="newForm">
+<div *ngIf="isSaved" id="preview">
   <h2>Form preview</h2>
-<formio [form]="form"></formio><br>
-  <!-- <button class="btn default">Edit Form</button> -->
-  <div class="well jsonviewer">
+  <div id="formPreview"><formio [form]="form"></formio></div><br>
+  <button id="editForm" class="btn default" (click)="editForm()">Edit Form</button>&nbsp;
+  <button id="send" class="btn default" (click)="sendForm()">Send Form</button><br><br>
+   <div class="well jsonviewer">
     <h4>JSON:</h4><br>
     <pre id="json"><code class="language-json" #json>{{jsonString}}</code></pre>
-    <a id="download" class="btn default" download="">Download as JSON</a>
-  </div>
+    <a id="download" class="btn default" download="">Download JSON file</a>
+    </div>
 </div>

@@ -12,14 +12,26 @@
     background-color: green;
     color: white;
 }
-#newForm{
+#preview{
     margin:auto;
     width: 50%;
     word-wrap: break-word;
 }
-#download{
-    margin-left: 35%;
-    margin-right:35%;
+#formPreview{
+    padding: 10px;
+    border-style: solid;
+    border-color: gray;
+}
+#send{
+    background-color: green;
+    color: white;
+}
+#editForm{
     background-color: darkgray;
     color: white;
+}
+.well.jsonviewer{
+    padding: 10px;
+    border-style: solid;
+    border-color: gray;
 }
