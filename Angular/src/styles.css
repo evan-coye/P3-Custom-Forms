@@ -53,3 +53,19 @@ body{
 .nav-link:hover{
     color: #af4358;
 }
+
+.float-right{
+    color:dimgray;
+}
+
+.fa{
+    color:dimgray;
+}
+
+.fa-window-restore{
+    color:dimgray;
+}
+
+a{
+    color:dimgray;
+}
