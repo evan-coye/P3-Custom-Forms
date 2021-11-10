@@ -1,4 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+.form-control:focus {
+    box-shadow: 0 0 0 0.2rem #af4358;
+}
+.builder-group-button:focus {
+    box-shadow: 0 0 0 0.2rem #af4358;
+}
+
 body{
     background-color: white;
 }
@@ -33,4 +40,7 @@ body{
 
 .builder-sidebar_search:hover{
     margin-block: #af4358;
+}
+.nav-link {
+    color: dimgray;
 }
