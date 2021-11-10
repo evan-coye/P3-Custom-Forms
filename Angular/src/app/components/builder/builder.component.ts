@@ -1,6 +1,11 @@
 import { Component, ElementRef, ViewChild, EventEmitter, OnInit } from '@angular/core';
+
 import { Router } from '@angular/router';
 import { FormService } from 'src/app/services/form.service';
+
+
+
+
 @Component({
   selector: 'app-builder',
   templateUrl: './builder.component.html',
@@ -17,11 +22,49 @@ export class BuilderComponent implements OnInit {
 
 
   public form: Object = {
-  components: [],
-  };
+    components: []
+ };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   ngOnInit() {
+
   }
+
   save() {
+
   this.isSaved = true;
   console.log(this.form);
 
@@ -40,5 +83,8 @@ export class BuilderComponent implements OnInit {
   }
   sendForm(){
     this.fs.sendForm(this.form)
+
+
+
   }
 }
