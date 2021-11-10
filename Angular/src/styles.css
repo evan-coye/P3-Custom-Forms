@@ -44,3 +44,12 @@ body{
 .nav-link {
     color: dimgray;
 }
+
+.nav-link:focus{
+    color: #af4358;
+}
+
+
+.nav-link:hover{
+    color: #af4358;
+}
