@@ -9,7 +9,11 @@ body{
 .btn {
     background-color: #989898;
     border-color: dimgray;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.btn:hover{
+    background-color: #af4358;
 }
 
 .navbar{
@@ -19,10 +23,14 @@ body{
 .alert-info{
     background-color: gainsboro;
     border-color: gainsboro;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Open Sans', Arial, sans-serif;
 }
 
 .builder-sidebar_search{
     border-color: dimgray;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.builder-sidebar_search:hover{
+    margin-block: #af4358;
 }
