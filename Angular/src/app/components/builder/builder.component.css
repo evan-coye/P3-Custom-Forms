@@ -30,13 +30,19 @@
     background-color: darkgray;
     color: white;
 }
+#download{
+    background-color: darkgray;
+    color: white;
+}
 .well.jsonviewer{
     padding: 10px;
     border-style: solid;
     border-color: gray;
 }
-
 #save{
  background-color: #b32541;
+}
+.alert-info{
+    background-color: gainsboro;
 }
 

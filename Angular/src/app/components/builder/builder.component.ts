@@ -22,40 +22,6 @@ export class BuilderComponent implements OnInit {
     components: []
  };
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   ngOnInit() {
 
   }
@@ -67,11 +33,6 @@ export class BuilderComponent implements OnInit {
 
   this.jsonString=JSON.stringify(this.form, null, 4)
   console.log(this.jsonString)
-  // localStorage.setItem('myform', JSON.stringify(this.form));
-  // let myContainer = document.getElementById("newForm") as HTMLElement
-  // console.log(JSON.stringify(this.form))
-
-  // this.router.navigate(['/formPreview']);
   
   }
   editForm(){
@@ -79,10 +40,23 @@ export class BuilderComponent implements OnInit {
     console.log(this.isSaved)
   }
   sendForm(){
+
     let formConfig = JSON.stringify(this.form.components)
     this.fs.sendForm(formConfig)
-
-
-
   }
+
+  download() {
+    let element = document.createElement('a');
+    let fileContent = this.jsonString as string
+    element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(fileContent));
+    element.setAttribute('download', "Form JSON");
+  
+    element.style.display = 'none';
+    document.body.appendChild(element);
+  
+    element.click();
+  
+    document.body.removeChild(element);
+  }
+  
 }
