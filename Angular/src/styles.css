@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    background-color: white;
+}
+.btn-primary {
+    background-color: dimgray;
+}
+
+.btn {
+    background-color: #989898;
+    border-color: dimgray;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navbar{
+    background-color: #fff;
+}
+
+.alert-info{
+    background-color: gainsboro;
+    border-color: gainsboro;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.builder-sidebar_search{
+    border-color: dimgray;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

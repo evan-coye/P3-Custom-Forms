@@ -35,3 +35,11 @@
     border-style: solid;
     border-color: gray;
 }
+
+#save{
+ background-color: #b32541;
+}
+
+.alert-info{
+    background-color: gainsboro;
+}

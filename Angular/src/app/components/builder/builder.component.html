@@ -3,9 +3,9 @@
 <div *ngIf="!isSaved" id="formContainer">
 <form-builder [form]="form">
 </form-builder>
-<div id="saveDiv">
+<!--<div id="saveDiv">-->
   <button (click)="save()" id="save" class="btn default" type="button">Save Form</button>
-</div>
+<!--</div>-->
 </div>
 
 <div *ngIf="isSaved" id="preview">

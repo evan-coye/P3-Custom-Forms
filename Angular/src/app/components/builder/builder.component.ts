@@ -3,9 +3,6 @@ import { Component, ElementRef, ViewChild, EventEmitter, OnInit } from '@angular
 import { Router } from '@angular/router';
 import { FormService } from 'src/app/services/form.service';
 
-
-
-
 @Component({
   selector: 'app-builder',
   templateUrl: './builder.component.html',
