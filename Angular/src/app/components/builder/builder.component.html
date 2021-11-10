@@ -3,26 +3,17 @@
 <div *ngIf="!isSaved" id="formContainer">
 <form-builder [form]="form">
 </form-builder>
-<!--<div id="saveDiv">-->
   <button (click)="save()" id="save" class="btn default" type="button">Save Form</button>
-<!--</div>-->
 </div>
 
 <div *ngIf="isSaved" id="preview">
   <h2>Form preview</h2>
   <div id="formPreview"><formio [form]="form"></formio></div><br>
   <button id="editForm" class="btn default" (click)="editForm()">Edit Form</button>&nbsp;
+  <button id="download" class="btn default" (click)="download()">Download JSON file</button>&nbsp;
   <button id="send" class="btn default" (click)="sendForm()">Send Form</button><br><br>
    <div class="well jsonviewer">
     <h4>JSON:</h4><br>
     <pre id="json"><code class="language-json" #json>{{jsonString}}</code></pre>
-    <a id="download" class="btn default" download="">Download JSON file</a>
     </div>
-
-
-
-
-
-
-
 </div>
