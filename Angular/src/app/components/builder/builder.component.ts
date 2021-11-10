@@ -49,7 +49,7 @@ export class BuilderComponent implements OnInit {
     let element = document.createElement('a');
     let fileContent = this.jsonString as string
     element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(fileContent));
-    element.setAttribute('download', "Form JSON");
+    element.setAttribute('download', "Form JSON.json");
   
     element.style.display = 'none';
     document.body.appendChild(element);
