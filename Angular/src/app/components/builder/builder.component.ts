@@ -18,7 +18,7 @@ export class BuilderComponent implements OnInit {
   constructor(private fs:FormService, private router: Router){}
 
 
-  public form: Object = {
+  public form: any = {
     components: []
  };
 
@@ -40,7 +40,9 @@ export class BuilderComponent implements OnInit {
     console.log(this.isSaved)
   }
   sendForm(){
-    this.fs.sendForm(this.form)
+
+    let formConfig = JSON.stringify(this.form.components)
+    this.fs.sendForm(formConfig)
   }
 
   download() {
@@ -56,4 +58,5 @@ export class BuilderComponent implements OnInit {
   
     document.body.removeChild(element);
   }
+  
 }
