@@ -12,13 +12,11 @@ Run this command on your local machine to make sure you have the dependecies you
 
 ```
 npm install
-
 ```
 If the generic install command does not work, you can run this more specifc install command 
 
 ```
 npm install --save @formio/angular formiojs
-
 ```
 # User Instructions
 
