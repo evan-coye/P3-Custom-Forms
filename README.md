@@ -40,7 +40,7 @@ This will then show them a working preview of their form; as well as give them t
 
 <img width="1279" alt="Screen_Shot_2021-11-11_at_11 13 48_AM" src="https://user-images.githubusercontent.com/29757186/141382666-623e94af-a289-4d02-8a8c-7d97bf79a6f1.png">
 
-<img width="1279" alt="Screen_Shot_2021-11-11_at_11 13 58_AM" src="https://user-images.githubusercontent.com/29757186/141382681-53d079d2-6c22-4fab-89b3-5501fb1aa404.png">
+<img width="1279" alt="Screen_Shot_2021-11-11_at_1 39 59_PM" src="https://user-images.githubusercontent.com/29757186/141382761-567ed323-3dcb-424d-a032-fa72888307d8.png">
 
 After the form is created and saved, the user will be able to access that form configuration in many different ways outisde of the applicaiton.
 
