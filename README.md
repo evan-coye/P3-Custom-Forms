@@ -38,9 +38,9 @@ After the user has layed out the form how they like, they will then be able to h
 
 This will then show them a working preview of their form; as well as give them the option to send the form configuration out to an API, download the configuration as a JSON file and go back to further edit the form if they want to change something.
 
-<img width="1279" alt="Screen_Shot_2021-11-11_at_11 13 48_AM" src="https://user-images.githubusercontent.com/29757186/141382666-623e94af-a289-4d02-8a8c-7d97bf79a6f1.png">
-
 <img width="1279" alt="Screen_Shot_2021-11-11_at_1 39 59_PM" src="https://user-images.githubusercontent.com/29757186/141382761-567ed323-3dcb-424d-a032-fa72888307d8.png">
+
+<img width="1279" alt="Screen_Shot_2021-11-11_at_11 13 58_AM" src="https://user-images.githubusercontent.com/29757186/141382811-3cd644f6-6e30-401d-97c9-86e2172ae141.png">
 
 After the form is created and saved, the user will be able to access that form configuration in many different ways outisde of the applicaiton.
 
