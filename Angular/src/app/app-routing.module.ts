@@ -17,10 +17,10 @@ const routes: Routes = [
     component:BuilderComponent
   },
 
-  // {
-  //   path:"formPreview",
-  //   component:FormPreviewComponent
-  // }
+  {
+    path:"form-preview",
+    component:FormPreviewComponent
+  }
 
 ];
 
