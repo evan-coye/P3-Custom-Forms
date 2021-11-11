@@ -1,0 +1,10 @@
+send {
+    background-color: dimgray;
+}
+.btn{
+    background-color: dimgray;
+}
+
+.btn:hover{
+    background-color: #af4358;
+}

@@ -69,3 +69,16 @@ body{
 a{
     color:dimgray;
 }
+
+data[submit]{
+    background-color: dimgray;
+}
+
+send {
+    background-color: dimgray;
+}
+
+.btn-primary:disabled{
+    background-color: dimgray;
+    border-color: dimgray;
+}
