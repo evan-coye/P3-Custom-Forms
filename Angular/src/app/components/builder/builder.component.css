@@ -2,3 +2,47 @@
     margin: auto;
     width: 80%;
 }
+#saveDiv{
+    margin: auto;
+    width: 100%;
+}
+#save{
+    margin-left: 45%;
+    margin-right:45%;
+    background-color: green;
+    color: white;
+}
+#preview{
+    margin:auto;
+    width: 50%;
+    word-wrap: break-word;
+}
+#formPreview{
+    padding: 10px;
+    border-style: solid;
+    border-color: gray;
+}
+#send{
+    background-color: green;
+    color: white;
+}
+#editForm{
+    background-color: darkgray;
+    color: white;
+}
+#download{
+    background-color: darkgray;
+    color: white;
+}
+.well.jsonviewer{
+    padding: 10px;
+    border-style: solid;
+    border-color: gray;
+}
+#save{
+ background-color: #b32541;
+}
+.alert-info{
+    background-color: gainsboro;
+}
+

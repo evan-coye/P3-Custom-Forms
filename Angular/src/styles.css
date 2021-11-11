@@ -1,1 +1,71 @@
 /* You can add global styles to this file, and also import other style files */
+.form-control:focus {
+    box-shadow: 0 0 0 0.2rem #af4358;
+}
+.builder-group-button:focus {
+    box-shadow: 0 0 0 0.2rem #af4358;
+}
+
+body{
+    background-color: white;
+}
+.btn-primary {
+    background-color: dimgray;
+}
+
+.btn {
+    background-color: #989898;
+    border-color: dimgray;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.btn:hover{
+    background-color: #af4358;
+}
+
+.navbar{
+    background-color: #fff;
+}
+
+.alert-info{
+    background-color: gainsboro;
+    border-color: gainsboro;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.builder-sidebar_search{
+    border-color: dimgray;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.builder-sidebar_search:hover{
+    margin-block: #af4358;
+}
+.nav-link {
+    color: dimgray;
+}
+
+.nav-link:focus{
+    color: #af4358;
+}
+
+
+.nav-link:hover{
+    color: #af4358;
+}
+
+.float-right{
+    color:dimgray;
+}
+
+.fa{
+    color:dimgray;
+}
+
+.fa-window-restore{
+    color:dimgray;
+}
+
+a{
+    color:dimgray;
+}
